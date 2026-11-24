@@ -62,8 +62,8 @@ RISK_MAP = {
 TREND_MAP = {"↑": "up", "→": "flat", "↓": "down", "-": None}
 
 MONTHS = [
-    "Sep25", "Oct25", "Nov25", "Dec25", "Jan26",
-    "Feb26", "Mar26", "Apr26", "May26", "Jun26", "Jul26", "Aug26",
+    "Dec25", "Jan26", "Feb26", "Mar26", "Apr26",
+    "May26", "Jun26", "Jul26", "Aug26", "Sep26", "Oct26", "Nov26",
 ]
 
 HISTORY_NOTE = (

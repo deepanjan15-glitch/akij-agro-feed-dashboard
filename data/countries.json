@@ -1,38 +1,46 @@
 {
   "countries": [
     {
-      "country": "USA",
-      "productsSourced": 18,
-      "rank1Count": 12,
-      "totalAppearances": 18,
-      "avgQuotedPrice": 596.3,
+      "country": "United States",
+      "productsSourced": 26,
+      "rank1Count": 16,
+      "totalAppearances": 26,
+      "avgQuotedPrice": 655.9,
       "products": [
         "CORN CIF",
+        "CORN FAS",
+        "CORN FOB",
+        "CORN GLUTEN MEAL",
+        "CORN GLUTEN OIL",
         "COTTON SEED OIL",
         "Corn DDG CIF",
         "Corn DDG FOB",
         "DDGS",
         "DISTILLER CORN OIL",
         "MAIZE/CORN",
+        "OTHER PROTEIN / MEAL",
         "SOYBEAN FOB",
+        "SOYBEAN OIL FOB Crude",
         "SOYBEAN OIL FOB Refined",
-        "SOYMEAL CIF",
-        "SOYMEAL CIF Hi-Pro",
+        "SOYBEAN ORGANIC FEED",
+        "SOYMEAL FOB",
         "SOYMEAL FOB Hi-Pro",
+        "SUNSEED OIL",
         "Soybean CFR",
         "Soybean CIF",
         "WHEAT 10%",
         "WHEAT FOB 10%",
         "WHEAT FOB 10.5%",
-        "WHEAT FOB 11%"
+        "WHEAT FOB 11%",
+        "WHEAT FOB Midds"
       ]
     },
     {
       "country": "China",
-      "productsSourced": 14,
-      "rank1Count": 11,
-      "totalAppearances": 16,
-      "avgQuotedPrice": 1717.8,
+      "productsSourced": 15,
+      "rank1Count": 12,
+      "totalAppearances": 17,
+      "avgQuotedPrice": 1647.4,
       "products": [
         "AMINO ACID (FEED)",
         "ANIMAL FEED",
@@ -47,42 +55,45 @@
         "L-THREONINE",
         "MONO CALCIUM PHOSPHATE (MCP)",
         "OTHER PROTEIN / MEAL",
-        "PH RAW MATERIALS"
+        "PH RAW MATERIALS",
+        "Soybean CFR"
       ]
     },
     {
-      "country": "India",
-      "productsSourced": 14,
-      "rank1Count": 7,
+      "country": "Argentina",
+      "productsSourced": 15,
+      "rank1Count": 5,
       "totalAppearances": 15,
-      "avgQuotedPrice": 8529.8,
+      "avgQuotedPrice": 607.7,
       "products": [
-        "AMINO ACID (FEED)",
-        "ANIMAL FEED",
-        "CHOLINE CHLORIDE",
-        "DICALCIUM PHOSPHATE (DCP)",
-        "DISTILLER CORN OIL",
-        "FEED PREMIX",
-        "FEED SUPPLEMENT (LIQUID)",
-        "FEED SUPPLEMENT (POWDER)",
-        "FISH MEAL",
-        "L-LYSINE",
-        "L-THREONINE",
-        "RAPESEED EXTRACT",
-        "SOYBEAN OIL CFR Crude",
-        "SOYBEAN ORGANIC FEED"
+        "BERLEY",
+        "CORN FAS",
+        "CORN FOB",
+        "Fish Oil",
+        "MAIZE/CORN",
+        "SOYBEAN FOB",
+        "SOYBEAN OIL FOB Crude",
+        "SOYMEAL CIF",
+        "SOYMEAL CIF Hi-Pro",
+        "SOYMEAL FOB",
+        "SOYMEAL FOB SMP",
+        "SUNFLOWER MEAL",
+        "Soybean FAS",
+        "WHEAT CBOT 11.5%",
+        "WHEAT FOB 11.5%"
       ]
     },
     {
       "country": "Brazil",
-      "productsSourced": 12,
-      "rank1Count": 6,
+      "productsSourced": 13,
+      "rank1Count": 5,
       "totalAppearances": 13,
-      "avgQuotedPrice": 485.0,
+      "avgQuotedPrice": 451.1,
       "products": [
         "ANIMAL FEED",
         "CORN FAS",
         "CORN FOB",
+        "MAIZE/CORN",
         "SOYBEAN FOB",
         "SOYBEAN OIL FOB Crude",
         "SOYMEAL CIF",
@@ -95,24 +106,28 @@
       ]
     },
     {
-      "country": "Ukraine",
-      "productsSourced": 8,
-      "rank1Count": 6,
-      "totalAppearances": 9,
-      "avgQuotedPrice": 303.8,
+      "country": "India",
+      "productsSourced": 12,
+      "rank1Count": 5,
+      "totalAppearances": 13,
+      "avgQuotedPrice": 9662.0,
       "products": [
-        "BERLEY",
-        "CORN CPT",
-        "CORN FOB",
-        "MAIZE/CORN",
-        "SUNSEED OIL",
-        "WHEAT CBOT 11.5%",
-        "WHEAT FEED",
-        "WHEAT FOB 11.5%"
+        "AMINO ACID (FEED)",
+        "ANIMAL FEED",
+        "CHOLINE CHLORIDE",
+        "DICALCIUM PHOSPHATE (DCP)",
+        "FEED PREMIX",
+        "FEED SUPPLEMENT (LIQUID)",
+        "FEED SUPPLEMENT (POWDER)",
+        "FISH MEAL",
+        "L-LYSINE",
+        "L-THREONINE",
+        "RAPESEED EXTRACT",
+        "SOYBEAN OIL CFR Crude"
       ]
     },
     {
-      "country": "Turkey (Marmara)",
+      "country": "Turkey",
       "productsSourced": 5,
       "rank1Count": 5,
       "totalAppearances": 5,
@@ -126,108 +141,80 @@
       ]
     },
     {
-      "country": "Argentina",
-      "productsSourced": 11,
-      "rank1Count": 3,
-      "totalAppearances": 11,
-      "avgQuotedPrice": 801.8,
+      "country": "Ukraine",
+      "productsSourced": 6,
+      "rank1Count": 4,
+      "totalAppearances": 6,
+      "avgQuotedPrice": 251.2,
       "products": [
         "BERLEY",
-        "CORN FOB",
-        "Fish Oil",
-        "MAIZE/CORN",
-        "SOYBEAN FOB",
-        "SOYBEAN OIL FOB Crude",
-        "SOYMEAL CIF Hi-Pro",
-        "SOYMEAL FOB",
-        "SUNFLOWER MEAL",
-        "SUNSEED OIL",
+        "CORN CPT",
+        "RAPESEED / CANOLA CPT",
+        "WHEAT CBOT 11.5%",
+        "WHEAT FEED",
         "WHEAT FOB 11.5%"
       ]
     },
     {
-      "country": "United States of America",
-      "productsSourced": 4,
-      "rank1Count": 3,
-      "totalAppearances": 8,
-      "avgQuotedPrice": 343.2,
-      "products": [
-        "SOYMEAL BASIS",
-        "SOYMEAL CBOT",
-        "Soybean Feed",
-        "WHEAT CBOT 10.5%"
-      ]
-    },
-    {
-      "country": "Corn",
-      "productsSourced": 4,
-      "rank1Count": 3,
-      "totalAppearances": 4,
-      "avgQuotedPrice": 649.3,
-      "products": [
-        "CORN CIF",
-        "CORN GLUTEN FEED",
-        "CORN GLUTEN MEAL",
-        "CORN GLUTEN OIL"
-      ]
-    },
-    {
       "country": "Russia",
-      "productsSourced": 4,
-      "rank1Count": 3,
-      "totalAppearances": 4,
-      "avgQuotedPrice": 202.8,
+      "productsSourced": 5,
+      "rank1Count": 4,
+      "totalAppearances": 5,
+      "avgQuotedPrice": 208.8,
       "products": [
         "BERLEY",
-        "WHEAT CBOT 10.5%",
+        "WHEAT CBOT 11.5%",
+        "WHEAT CBOT 12.5%",
         "WHEAT FOB 11.5%",
         "WHEAT FOB 12.5%"
       ]
     },
     {
-      "country": "RUssia",
+      "country": "Canada",
       "productsSourced": 3,
       "rank1Count": 3,
-      "totalAppearances": 4,
-      "avgQuotedPrice": 208.4,
+      "totalAppearances": 3,
+      "avgQuotedPrice": 311.2,
       "products": [
-        "WHEAT CBOT 11.5%",
-        "WHEAT CBOT 12.5%",
-        "WHEAT CBOT 14.5%"
+        "WHEAT CBOT 14.5%",
+        "WHEAT FOB 13.5%",
+        "WHEAT FOB 14.5%"
       ]
     },
     {
-      "country": "United States-Pacific Northwest (Washington)",
+      "country": "South Korea",
+      "productsSourced": 5,
+      "rank1Count": 2,
+      "totalAppearances": 5,
+      "avgQuotedPrice": 974.3,
+      "products": [
+        "CORN CIF",
+        "FEED PREMIX",
+        "L-LYSINE",
+        "SOYMEAL CIF",
+        "SOYMEAL CIF Hi-Pro"
+      ]
+    },
+    {
+      "country": "United States of America",
       "productsSourced": 2,
       "rank1Count": 2,
-      "totalAppearances": 6,
-      "avgQuotedPrice": 410.5,
+      "totalAppearances": 4,
+      "avgQuotedPrice": 354.9,
       "products": [
-        "SOYBEAN BASIS",
-        "Soybean CBOT"
+        "SOYMEAL BASIS",
+        "Soybean Feed"
       ]
     },
     {
-      "country": "Wheat",
-      "productsSourced": 3,
-      "rank1Count": 2,
-      "totalAppearances": 3,
-      "avgQuotedPrice": 200.8,
-      "products": [
-        "WHEAT BRAN",
-        "WHEAT FOB 12.5%",
-        "WHEAT FOB Midds"
-      ]
-    },
-    {
-      "country": "Canola",
+      "country": "Azov",
       "productsSourced": 2,
       "rank1Count": 2,
       "totalAppearances": 2,
-      "avgQuotedPrice": 1026.0,
+      "avgQuotedPrice": 192.5,
       "products": [
-        "RAPESEED Meal (RSM)",
-        "RAPESEED OIL FOB Refined"
+        "WHEAT CBOT 10.5%",
+        "WHEAT FOB 10.5%"
       ]
     },
     {
@@ -235,7 +222,7 @@
       "productsSourced": 5,
       "rank1Count": 1,
       "totalAppearances": 5,
-      "avgQuotedPrice": 2010.7,
+      "avgQuotedPrice": 2010.6,
       "products": [
         "FEED ADDITIVE",
         "FEED SUPPLEMENT (LIQUID)",
@@ -245,15 +232,15 @@
       ]
     },
     {
-      "country": "Canada",
+      "country": "Australia",
       "productsSourced": 3,
       "rank1Count": 1,
       "totalAppearances": 3,
-      "avgQuotedPrice": 302.7,
+      "avgQuotedPrice": 282.3,
       "products": [
-        "WHEAT CBOT 14.5%",
-        "WHEAT FOB 13.5%",
-        "WHEAT FOB 14.5%"
+        "WHEAT CBOT 10.5%",
+        "WHEAT FOB 10.5%",
+        "WHEAT FOB 9.5%"
       ]
     },
     {
@@ -261,7 +248,7 @@
       "productsSourced": 3,
       "rank1Count": 1,
       "totalAppearances": 3,
-      "avgQuotedPrice": 225.9,
+      "avgQuotedPrice": 212.6,
       "products": [
         "LIMESTONE POWDER",
         "WHEAT CIF 11.5%",
@@ -279,14 +266,13 @@
       ]
     },
     {
-      "country": "Australia",
-      "productsSourced": 2,
+      "country": "United States-Pacific Northwest (Washington)",
+      "productsSourced": 1,
       "rank1Count": 1,
-      "totalAppearances": 2,
-      "avgQuotedPrice": 303.0,
+      "totalAppearances": 3,
+      "avgQuotedPrice": 426.7,
       "products": [
-        "WHEAT FOB 10.5%",
-        "WHEAT FOB 9.5%"
+        "SOYBEAN BASIS"
       ]
     },
     {
@@ -301,11 +287,11 @@
       ]
     },
     {
-      "country": "CVB",
+      "country": "Black Sea",
       "productsSourced": 2,
       "rank1Count": 1,
       "totalAppearances": 2,
-      "avgQuotedPrice": 423.5,
+      "avgQuotedPrice": 400.9,
       "products": [
         "RAPESEED / CANOLA FOB",
         "WHEAT FEED"
@@ -320,6 +306,26 @@
       "products": [
         "FEED ADDITIVE",
         "L-LYSINE"
+      ]
+    },
+    {
+      "country": "Canola",
+      "productsSourced": 1,
+      "rank1Count": 1,
+      "totalAppearances": 1,
+      "avgQuotedPrice": 1725.3,
+      "products": [
+        "RAPESEED OIL FOB Refined"
+      ]
+    },
+    {
+      "country": "Corn",
+      "productsSourced": 1,
+      "rank1Count": 1,
+      "totalAppearances": 1,
+      "avgQuotedPrice": 137.8,
+      "products": [
+        "CORN GLUTEN FEED"
       ]
     },
     {
@@ -363,6 +369,16 @@
       ]
     },
     {
+      "country": "NW Europe",
+      "productsSourced": 1,
+      "rank1Count": 1,
+      "totalAppearances": 1,
+      "avgQuotedPrice": 234.5,
+      "products": [
+        "RAPESEED Meal (RSM)"
+      ]
+    },
+    {
       "country": "Nigeria",
       "productsSourced": 1,
       "rank1Count": 1,
@@ -383,41 +399,11 @@
       ]
     },
     {
-      "country": "Rapeseed,",
-      "productsSourced": 1,
-      "rank1Count": 1,
-      "totalAppearances": 1,
-      "avgQuotedPrice": 500.0,
-      "products": [
-        "RAPESEED / CANOLA CPT"
-      ]
-    },
-    {
-      "country": "Russia (Azov)",
-      "productsSourced": 1,
-      "rank1Count": 1,
-      "totalAppearances": 1,
-      "avgQuotedPrice": 211.5,
-      "products": [
-        "WHEAT FOB 14.5%"
-      ]
-    },
-    {
-      "country": "Soymeal,",
-      "productsSourced": 1,
-      "rank1Count": 1,
-      "totalAppearances": 1,
-      "avgQuotedPrice": 373.4,
-      "products": [
-        "SOYMEAL FOB Hi-Pro"
-      ]
-    },
-    {
       "country": "Spain",
       "productsSourced": 1,
       "rank1Count": 1,
       "totalAppearances": 1,
-      "avgQuotedPrice": 285.8,
+      "avgQuotedPrice": 275.0,
       "products": [
         "WHEAT CIF Feed"
       ]
@@ -433,16 +419,13 @@
       ]
     },
     {
-      "country": "Turkey",
-      "productsSourced": 4,
-      "rank1Count": 0,
-      "totalAppearances": 4,
-      "avgQuotedPrice": 504.8,
+      "country": "Wheat",
+      "productsSourced": 1,
+      "rank1Count": 1,
+      "totalAppearances": 1,
+      "avgQuotedPrice": 165.0,
       "products": [
-        "SUNSEED OIL",
-        "WHEAT CBOT 10.5%",
-        "WHEAT CBOT 12.5%",
-        "WHEAT CBOT 14.5%"
+        "WHEAT BRAN"
       ]
     },
     {
@@ -462,11 +445,33 @@
       "productsSourced": 3,
       "rank1Count": 0,
       "totalAppearances": 3,
-      "avgQuotedPrice": 1285.4,
+      "avgQuotedPrice": 1275.3,
       "products": [
         "CORN CIF",
         "FEED SUPPLEMENT (POWDER)",
         "LIMESTONE POWDER"
+      ]
+    },
+    {
+      "country": "Baltic",
+      "productsSourced": 2,
+      "rank1Count": 0,
+      "totalAppearances": 2,
+      "avgQuotedPrice": 269.8,
+      "products": [
+        "WHEAT CBOT 12.5%",
+        "WHEAT FOB 12.5%"
+      ]
+    },
+    {
+      "country": "Poland",
+      "productsSourced": 2,
+      "rank1Count": 0,
+      "totalAppearances": 2,
+      "avgQuotedPrice": 269.2,
+      "products": [
+        "WHEAT CBOT 12.5%",
+        "WHEAT FOB 12.5%"
       ]
     },
     {
@@ -481,28 +486,6 @@
       ]
     },
     {
-      "country": "South Korea",
-      "productsSourced": 2,
-      "rank1Count": 0,
-      "totalAppearances": 2,
-      "avgQuotedPrice": 1889.3,
-      "products": [
-        "FEED PREMIX",
-        "L-LYSINE"
-      ]
-    },
-    {
-      "country": "United States",
-      "productsSourced": 2,
-      "rank1Count": 0,
-      "totalAppearances": 2,
-      "avgQuotedPrice": 1283.0,
-      "products": [
-        "OTHER PROTEIN / MEAL",
-        "SOYBEAN OIL FOB Crude"
-      ]
-    },
-    {
       "country": "Angola",
       "productsSourced": 1,
       "rank1Count": 0,
@@ -513,16 +496,6 @@
       ]
     },
     {
-      "country": "Distiller's",
-      "productsSourced": 1,
-      "rank1Count": 0,
-      "totalAppearances": 1,
-      "avgQuotedPrice": 1554.3,
-      "products": [
-        "DISTILLER CORN OIL"
-      ]
-    },
-    {
       "country": "Jordan",
       "productsSourced": 1,
       "rank1Count": 0,
@@ -530,16 +503,6 @@
       "avgQuotedPrice": 550.0,
       "products": [
         "POULTRY MEAL"
-      ]
-    },
-    {
-      "country": "Korea",
-      "productsSourced": 1,
-      "rank1Count": 0,
-      "totalAppearances": 1,
-      "avgQuotedPrice": 482.5,
-      "products": [
-        "SOYMEAL CIF"
       ]
     },
     {
@@ -557,7 +520,7 @@
       "productsSourced": 1,
       "rank1Count": 0,
       "totalAppearances": 1,
-      "avgQuotedPrice": 566.8,
+      "avgQuotedPrice": 513.0,
       "products": [
         "Soybean CIF"
       ]
@@ -570,16 +533,6 @@
       "avgQuotedPrice": 1425.0,
       "products": [
         "FISH MEAL"
-      ]
-    },
-    {
-      "country": "Poland",
-      "productsSourced": 1,
-      "rank1Count": 0,
-      "totalAppearances": 1,
-      "avgQuotedPrice": 272.0,
-      "products": [
-        "WHEAT FOB 12.5%"
       ]
     },
     {

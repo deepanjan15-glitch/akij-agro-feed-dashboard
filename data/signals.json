@@ -25,7 +25,7 @@
       "label": "RISK",
       "color": "danger",
       "icon": "alert-triangle",
-      "description": "CORN FOB sourced from Brazil costs meaningfully more than the best available origin (Ukraine)."
+      "description": "CORN FOB sourced from Brazil costs meaningfully more than the best available origin (Argentina)."
     },
     {
       "productId": "MAT-004",
@@ -97,7 +97,7 @@
       "label": "RISK",
       "color": "danger",
       "icon": "alert-triangle",
-      "description": "SOYMEAL CIF Hi-Pro sourced from Brazil costs meaningfully more than the best available origin (USA)."
+      "description": "SOYMEAL CIF Hi-Pro sourced from Brazil costs meaningfully more than the best available origin (South Korea)."
     },
     {
       "productId": "MAT-012",
