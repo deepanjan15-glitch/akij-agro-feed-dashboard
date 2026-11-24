@@ -1,0 +1,874 @@
+{
+  "recommendations": [
+    {
+      "productId": "MAT-001",
+      "product": "MAIZE/CORN",
+      "action": "Diversify Source",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "HIGH_COST",
+      "wowPct": 0.1572,
+      "forecastDeltaPct": -0.0067
+    },
+    {
+      "productId": "MAT-002",
+      "product": "CORN FOB",
+      "action": "Diversify Source",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "HIGH_COST",
+      "wowPct": 0.7112,
+      "forecastDeltaPct": 0.2983
+    },
+    {
+      "productId": "MAT-003",
+      "product": "CORN CIF",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.2612,
+      "forecastDeltaPct": 0.061500000000000006
+    },
+    {
+      "productId": "MAT-004",
+      "product": "CORN BASIS",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.0,
+      "forecastDeltaPct": 0.596
+    },
+    {
+      "productId": "MAT-005",
+      "product": "CORN FAS",
+      "action": "Hold",
+      "priority": "low",
+      "color": "neutral",
+      "riskSignal": "OPTIMAL",
+      "wowPct": 0.0,
+      "forecastDeltaPct": 0.3784
+    },
+    {
+      "productId": "MAT-006",
+      "product": "CORN CPT",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": -0.0556,
+      "forecastDeltaPct": 0.2206
+    },
+    {
+      "productId": "MAT-007",
+      "product": "Corn DDG CIF",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": -0.3532,
+      "forecastDeltaPct": 0.8731
+    },
+    {
+      "productId": "MAT-008",
+      "product": "Corn DDG FOB",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": 0.1603,
+      "forecastDeltaPct": -0.0255
+    },
+    {
+      "productId": "MAT-009",
+      "product": "SOYMEAL CIF",
+      "action": "Diversify Source",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "HIGH_COST",
+      "wowPct": 0.0669,
+      "forecastDeltaPct": -0.0649
+    },
+    {
+      "productId": "MAT-010",
+      "product": "SOYMEAL CIF Hi-Pro",
+      "action": "Diversify Source",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "HIGH_COST",
+      "wowPct": 0.2505,
+      "forecastDeltaPct": -0.0833
+    },
+    {
+      "productId": "MAT-011",
+      "product": "SOYMEAL CIF SMP",
+      "action": "Strong Buy",
+      "priority": "high",
+      "color": "success",
+      "riskSignal": "OPTIMAL",
+      "wowPct": 0.0755,
+      "forecastDeltaPct": -0.057
+    },
+    {
+      "productId": "MAT-012",
+      "product": "SOYMEAL FOB Hi-Pro",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.1522,
+      "forecastDeltaPct": 0.0329
+    },
+    {
+      "productId": "MAT-013",
+      "product": "SOYMEAL FOB",
+      "action": "Buy",
+      "priority": "medium",
+      "color": "success",
+      "riskSignal": "MONITOR",
+      "wowPct": 0.26239999999999997,
+      "forecastDeltaPct": -0.102
+    },
+    {
+      "productId": "MAT-014",
+      "product": "SOYMEAL FOB SMP",
+      "action": "Hold",
+      "priority": "low",
+      "color": "neutral",
+      "riskSignal": "OPTIMAL",
+      "wowPct": null,
+      "forecastDeltaPct": -0.028900000000000002
+    },
+    {
+      "productId": "MAT-015",
+      "product": "SOYMEAL CBOT",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.0,
+      "forecastDeltaPct": -0.0558
+    },
+    {
+      "productId": "MAT-016",
+      "product": "SOYMEAL BASIS",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.0,
+      "forecastDeltaPct": 0.08529999999999999
+    },
+    {
+      "productId": "MAT-017",
+      "product": "SOYBEAN ORGANIC FEED",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.0,
+      "forecastDeltaPct": -0.3967
+    },
+    {
+      "productId": "MAT-018",
+      "product": "SOYBEAN BASIS",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.0,
+      "forecastDeltaPct": 0.5543
+    },
+    {
+      "productId": "MAT-019",
+      "product": "Soybean CBOT",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.0,
+      "forecastDeltaPct": -0.0345
+    },
+    {
+      "productId": "MAT-020",
+      "product": "Soybean CFR",
+      "action": "Strong Buy",
+      "priority": "high",
+      "color": "success",
+      "riskSignal": "OPTIMAL",
+      "wowPct": 0.1558,
+      "forecastDeltaPct": -0.0933
+    },
+    {
+      "productId": "MAT-021",
+      "product": "Soybean CIF",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.1365,
+      "forecastDeltaPct": -0.08289999999999999
+    },
+    {
+      "productId": "MAT-022",
+      "product": "SOYBEAN FOB",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": 0.1592,
+      "forecastDeltaPct": -0.0688
+    },
+    {
+      "productId": "MAT-023",
+      "product": "Soybean FAS",
+      "action": "Hold",
+      "priority": "low",
+      "color": "neutral",
+      "riskSignal": "OPTIMAL",
+      "wowPct": 0.0,
+      "forecastDeltaPct": -0.029500000000000002
+    },
+    {
+      "productId": "MAT-024",
+      "product": "Soybean Feed",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.0,
+      "forecastDeltaPct": -0.0263
+    },
+    {
+      "productId": "MAT-025",
+      "product": "SOYBEAN OIL CFR Crude",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.0262,
+      "forecastDeltaPct": -0.0046
+    },
+    {
+      "productId": "MAT-026",
+      "product": "SOYBEAN OIL FOB Crude",
+      "action": "Buy",
+      "priority": "medium",
+      "color": "success",
+      "riskSignal": "MONITOR",
+      "wowPct": 0.035,
+      "forecastDeltaPct": -0.0048
+    },
+    {
+      "productId": "MAT-027",
+      "product": "SOYBEAN OIL FOB Refined",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": -0.013300000000000001,
+      "forecastDeltaPct": -0.0083
+    },
+    {
+      "productId": "MAT-028",
+      "product": "ANIMAL FEED",
+      "action": "Diversify Source",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "HIGH_COST",
+      "wowPct": 0.0,
+      "forecastDeltaPct": 1.0733
+    },
+    {
+      "productId": "MAT-029",
+      "product": "WHEAT BRAN",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": -0.40049999999999997,
+      "forecastDeltaPct": 0.2223
+    },
+    {
+      "productId": "MAT-030",
+      "product": "DDGS",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.26789999999999997,
+      "forecastDeltaPct": 0.1602
+    },
+    {
+      "productId": "MAT-031",
+      "product": "L-METHIONINE",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.8332999999999999,
+      "forecastDeltaPct": -0.2826
+    },
+    {
+      "productId": "MAT-032",
+      "product": "MONO CALCIUM PHOSPHATE (MCP)",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "OPTIMAL",
+      "wowPct": -0.2077,
+      "forecastDeltaPct": -0.11810000000000001
+    },
+    {
+      "productId": "MAT-033",
+      "product": "DICALCIUM PHOSPHATE (DCP)",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "HIGH_COST",
+      "wowPct": -0.063,
+      "forecastDeltaPct": -0.0195
+    },
+    {
+      "productId": "MAT-034",
+      "product": "CORN GLUTEN FEED",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.1268,
+      "forecastDeltaPct": 0.9462
+    },
+    {
+      "productId": "MAT-035",
+      "product": "PH RAW MATERIALS",
+      "action": "Hold",
+      "priority": "low",
+      "color": "neutral",
+      "riskSignal": "OPTIMAL",
+      "wowPct": null,
+      "forecastDeltaPct": null
+    },
+    {
+      "productId": "MAT-036",
+      "product": "RAPESEED Meal (RSM)",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.1161,
+      "forecastDeltaPct": 0.0015
+    },
+    {
+      "productId": "MAT-037",
+      "product": "RAPESEED / CANOLA CPT",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": -0.15810000000000002,
+      "forecastDeltaPct": 0.08779999999999999
+    },
+    {
+      "productId": "MAT-038",
+      "product": "RAPESEED / CANOLA FOB",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.0415,
+      "forecastDeltaPct": -0.0264
+    },
+    {
+      "productId": "MAT-039",
+      "product": "RAPESEED OIL FOB Refined",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": -0.043,
+      "forecastDeltaPct": -0.0016
+    },
+    {
+      "productId": "MAT-040",
+      "product": "RAPESEED EXTRACT",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "OPTIMAL",
+      "wowPct": -0.024,
+      "forecastDeltaPct": -0.0046
+    },
+    {
+      "productId": "MAT-041",
+      "product": "WHEAT CBOT",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.0,
+      "forecastDeltaPct": 0.031
+    },
+    {
+      "productId": "MAT-042",
+      "product": "WHEAT 10%",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.0191,
+      "forecastDeltaPct": 0.0075
+    },
+    {
+      "productId": "MAT-043",
+      "product": "WHEAT CBOT 10.5%",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.0,
+      "forecastDeltaPct": 0.09609999999999999
+    },
+    {
+      "productId": "MAT-044",
+      "product": "WHEAT CBOT 11.5%",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.0,
+      "forecastDeltaPct": 0.0946
+    },
+    {
+      "productId": "MAT-045",
+      "product": "WHEAT CBOT 12.5%",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.0,
+      "forecastDeltaPct": 0.0886
+    },
+    {
+      "productId": "MAT-046",
+      "product": "WHEAT AND WHEAT BRAN CBOT 13.5%",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.212,
+      "forecastDeltaPct": -0.0281
+    },
+    {
+      "productId": "MAT-047",
+      "product": "WHEAT CBOT 14.5%",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.0,
+      "forecastDeltaPct": 0.0875
+    },
+    {
+      "productId": "MAT-048",
+      "product": "WHEAT FEED",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.11349999999999999,
+      "forecastDeltaPct": -0.015
+    },
+    {
+      "productId": "MAT-049",
+      "product": "WHEAT FOB 10%",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.0269,
+      "forecastDeltaPct": -0.0187
+    },
+    {
+      "productId": "MAT-050",
+      "product": "WHEAT FOB 10.5%",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.0208,
+      "forecastDeltaPct": -0.031400000000000004
+    },
+    {
+      "productId": "MAT-051",
+      "product": "WHEAT FOB 11%",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.28550000000000003,
+      "forecastDeltaPct": -0.10769999999999999
+    },
+    {
+      "productId": "MAT-052",
+      "product": "WHEAT FOB 11.5%",
+      "action": "Strong Buy",
+      "priority": "high",
+      "color": "success",
+      "riskSignal": "OPTIMAL",
+      "wowPct": 0.1649,
+      "forecastDeltaPct": -0.1502
+    },
+    {
+      "productId": "MAT-053",
+      "product": "WHEAT FOB 12.5%",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.24670000000000003,
+      "forecastDeltaPct": -0.0883
+    },
+    {
+      "productId": "MAT-054",
+      "product": "WHEAT FOB 13.5%",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": -0.0639,
+      "forecastDeltaPct": -0.0042
+    },
+    {
+      "productId": "MAT-055",
+      "product": "WHEAT FOB 14.5%",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": -0.0471,
+      "forecastDeltaPct": -0.0044
+    },
+    {
+      "productId": "MAT-056",
+      "product": "WHEAT FOB 9.5%",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.0924,
+      "forecastDeltaPct": -0.0658
+    },
+    {
+      "productId": "MAT-057",
+      "product": "WHEAT CIF 10.5%",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.0138,
+      "forecastDeltaPct": -0.0045000000000000005
+    },
+    {
+      "productId": "MAT-058",
+      "product": "WHEAT CIF 11.5%",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.0301,
+      "forecastDeltaPct": -0.0435
+    },
+    {
+      "productId": "MAT-059",
+      "product": "WHEAT CIF 12.5%",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.024900000000000002,
+      "forecastDeltaPct": -0.0318
+    },
+    {
+      "productId": "MAT-060",
+      "product": "WHEAT CIF 13.5%",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.0,
+      "forecastDeltaPct": 0.0174
+    },
+    {
+      "productId": "MAT-061",
+      "product": "WHEAT CIF 14.5%",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.0042,
+      "forecastDeltaPct": 0.0
+    },
+    {
+      "productId": "MAT-062",
+      "product": "WHEAT CIF Feed",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.0726,
+      "forecastDeltaPct": -0.0951
+    },
+    {
+      "productId": "MAT-063",
+      "product": "WHEAT FOB Midds",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.1636,
+      "forecastDeltaPct": -0.07690000000000001
+    },
+    {
+      "productId": "MAT-064",
+      "product": "BERLEY",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": 0.2847,
+      "forecastDeltaPct": -0.069
+    },
+    {
+      "productId": "MAT-065",
+      "product": "COTTON SEED OIL",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": -0.017,
+      "forecastDeltaPct": 0.0461
+    },
+    {
+      "productId": "MAT-066",
+      "product": "CORN GLUTEN MEAL",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": 0.1545,
+      "forecastDeltaPct": -0.0296
+    },
+    {
+      "productId": "MAT-067",
+      "product": "SUNFLOWER MEAL",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": -0.099,
+      "forecastDeltaPct": 0.47509999999999997
+    },
+    {
+      "productId": "MAT-068",
+      "product": "Fish Oil",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": 0.0,
+      "forecastDeltaPct": -0.39630000000000004
+    },
+    {
+      "productId": "MAT-069",
+      "product": "L-THREONINE",
+      "action": "Hold",
+      "priority": "low",
+      "color": "neutral",
+      "riskSignal": "OPTIMAL",
+      "wowPct": null,
+      "forecastDeltaPct": 0.1016
+    },
+    {
+      "productId": "MAT-070",
+      "product": "L-LYSINE",
+      "action": "Diversify Source",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "HIGH_COST",
+      "wowPct": 0.0667,
+      "forecastDeltaPct": -0.0594
+    },
+    {
+      "productId": "MAT-071",
+      "product": "L-LYSINE",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": -0.3862,
+      "forecastDeltaPct": 0.1848
+    },
+    {
+      "productId": "MAT-072",
+      "product": "L-THREONINE",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "OPTIMAL",
+      "wowPct": -0.1752,
+      "forecastDeltaPct": 0.1276
+    },
+    {
+      "productId": "MAT-073",
+      "product": "CHOLINE CHLORIDE",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": -0.0564,
+      "forecastDeltaPct": -0.045899999999999996
+    },
+    {
+      "productId": "MAT-074",
+      "product": "DL-METHIONINE",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": 0.0059,
+      "forecastDeltaPct": -0.0404
+    },
+    {
+      "productId": "MAT-075",
+      "product": "FEED PREMIX",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": 0.555,
+      "forecastDeltaPct": 0.1634
+    },
+    {
+      "productId": "MAT-076",
+      "product": "FEED SUPPLEMENT (LIQUID)",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": 0.19949999999999998,
+      "forecastDeltaPct": -0.1649
+    },
+    {
+      "productId": "MAT-077",
+      "product": "FEED SUPPLEMENT (POWDER)",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": -0.38409999999999994,
+      "forecastDeltaPct": -0.1533
+    },
+    {
+      "productId": "MAT-078",
+      "product": "FEED SUPPLEMENT (OTHER)",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": 0.14730000000000001,
+      "forecastDeltaPct": -0.0711
+    },
+    {
+      "productId": "MAT-079",
+      "product": "FISH MEAL",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": 0.0058,
+      "forecastDeltaPct": -0.0088
+    },
+    {
+      "productId": "MAT-080",
+      "product": "OTHER PROTEIN / MEAL",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": 0.0,
+      "forecastDeltaPct": 0.0004
+    },
+    {
+      "productId": "MAT-081",
+      "product": "POULTRY MEAL",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": 0.0339,
+      "forecastDeltaPct": -0.0294
+    },
+    {
+      "productId": "MAT-082",
+      "product": "SHRIMP MEAL",
+      "action": "Monitor",
+      "priority": "medium",
+      "color": "warning",
+      "riskSignal": "MONITOR",
+      "wowPct": 0.0,
+      "forecastDeltaPct": 0.0
+    },
+    {
+      "productId": "MAT-083",
+      "product": "AMINO ACID (FEED)",
+      "action": "Diversify Source",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "HIGH_COST",
+      "wowPct": null,
+      "forecastDeltaPct": 0.08539999999999999
+    },
+    {
+      "productId": "MAT-084",
+      "product": "FEED ADDITIVE",
+      "action": "Diversify Source",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "HIGH_COST",
+      "wowPct": 3.3039,
+      "forecastDeltaPct": -0.3
+    },
+    {
+      "productId": "MAT-085",
+      "product": "LIMESTONE POWDER",
+      "action": "Strong Buy",
+      "priority": "high",
+      "color": "success",
+      "riskSignal": "OPTIMAL",
+      "wowPct": 0.7686,
+      "forecastDeltaPct": -0.030699999999999998
+    },
+    {
+      "productId": "MAT-086",
+      "product": "TAPIOCA RESIDUE PELLETS",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": null,
+      "forecastDeltaPct": 0.0
+    },
+    {
+      "productId": "MAT-087",
+      "product": "SOYBEAN FLOUR",
+      "action": "Review Supplier",
+      "priority": "high",
+      "color": "danger",
+      "riskSignal": "REVIEW",
+      "wowPct": null,
+      "forecastDeltaPct": 0.0
+    }
+  ]
+}
