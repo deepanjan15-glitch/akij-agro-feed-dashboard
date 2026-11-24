@@ -99,6 +99,11 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
         <span class="nav-label">Historical Data</span>
       </li>
+      <li class="nav-item" data-view="fastmarkets">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 17l6-6 4 4 8-8"/><path d="M21 7v6h-6"/></svg>
+        <span class="nav-label">Live Market Prices</span>
+        <span class="badge-dot"></span>
+      </li>
     </ul>
 
     <div class="nav-section-title">System</div>
@@ -408,6 +413,21 @@
             <div class="table-scroll" style="max-height:520px;">
               <table class="data-table" id="historyTable"></table>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======================= VIEW: LIVE MARKET PRICES (FASTMARKETS) ======================= -->
+      <section class="view" id="view-fastmarkets">
+        <div class="section-heading"><h2>Live Market Prices</h2><span class="section-sub">Fastmarkets "Feed_Rawmat" workspace — latest assessed physical prices</span></div>
+        <div class="kpi-grid" id="fastmarketsKpis"></div>
+        <div class="panel" style="margin-top:16px;">
+          <div class="panel-head">
+            <div class="panel-head-text"><h3>Price Assessments</h3><span class="panel-sub" id="fastmarketsAsOf">Latest assessments</span></div>
+            <input class="history-input" type="text" id="fastmarketsSearch" placeholder="Search commodity, location, incoterm…" />
+          </div>
+          <div class="table-scroll" style="max-height:600px;">
+            <table class="data-table" id="fastmarketsTable"></table>
           </div>
         </div>
       </section>

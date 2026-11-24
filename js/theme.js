@@ -13,6 +13,7 @@ const VIEW_TITLES = {
   recommendations: "Recommendations",
   ai: "AI Insights",
   history: "Historical Data",
+  fastmarkets: "Live Market Prices",
   settings: "Settings",
 };
 

@@ -10,6 +10,7 @@ const FILES = {
   signals: "data/signals.json",
   recommendations: "data/recommendations.json",
   insights: "data/ai_insights.json",
+  fastmarkets: "data/fastmarkets.json",
 };
 
 async function fetchJson(path) {

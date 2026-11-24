@@ -948,4 +948,7 @@ a, button, .nav-item, .tab-btn, .icon-btn, .btn, .filter-chip, .page-btn { trans
 }
 .history-input::placeholder { color: var(--ink-500); }
 .hist-num { text-align: right; font-variant-numeric: tabular-nums; }
+.pos { color: var(--positive, #16A34A); font-weight: 600; }
+.neg { color: var(--negative, #DC2626); font-weight: 600; }
+.flat { color: var(--ink-500); }
 

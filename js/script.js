@@ -15,6 +15,7 @@ import { renderMainTable, renderTableToolbar } from "./table.js";
 import { renderSignalCards, renderDependencyGrid, renderSupplierTable, renderRecommendationsTable } from "./signals.js";
 import { renderAICards, renderExecutiveSummary, renderExecutiveBrief, renderHealthScore, renderWatchlistPanel } from "./insights.js";
 import { initHistorySelect, renderHistoryChart, renderHistoryAvg, renderHistoryTable } from "./history.js";
+import { renderFastmarketsKpis, renderFastmarketsTable } from "./fastmarkets.js";
 import { openRowModal, closeRowModal } from "./modal.js";
 import { exportExcel, exportPDF } from "./exportUtils.js";
 import { initTheme, initSidebar, initNav } from "./theme.js";
@@ -80,6 +81,14 @@ async function bootstrap() {
   document.getElementById("historyTableSearch").addEventListener("input", debounce((e) => {
     renderHistoryTable("historyTable", e.target.value);
   }, 200));
+
+  document.getElementById("fastmarketsSearch").addEventListener("input", debounce((e) => {
+    renderFastmarketsTable("fastmarketsTable", e.target.value);
+  }, 200));
+  const fmAsOf = document.getElementById("fastmarketsAsOf");
+  if (fmAsOf && AppState.raw.fastmarkets) {
+    fmAsOf.textContent = `As of ${formatDate(AppState.raw.fastmarkets.asOfDate)} · ${AppState.raw.fastmarkets.materialsTracked} assessments · source: Fastmarkets`;
+  }
 
   document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeRowModal(); });
   document.addEventListener("theme:changed", () => renderCurrentView());
@@ -148,6 +157,10 @@ function renderCurrentView() {
       renderHistoryChart("historyTrendChart", document.getElementById("historyMaterialSelect").value);
       renderHistoryAvg("historyAvgChart");
       renderHistoryTable("historyTable", document.getElementById("historyTableSearch").value);
+      break;
+    case "fastmarkets":
+      renderFastmarketsKpis("fastmarketsKpis");
+      renderFastmarketsTable("fastmarketsTable", document.getElementById("fastmarketsSearch").value);
       break;
     default:
       break;
