@@ -933,3 +933,19 @@ a, button, .nav-item, .tab-btn, .icon-btn, .btn, .filter-chip, .page-btn { trans
   .health-score-block { flex-direction: column; }
   .multiselect-panel { width: max(220px, 80vw); left: 0; }
 }
+
+/* ==========================================================================
+   HISTORICAL DATA VIEW
+   ========================================================================== */
+.history-select, .history-input {
+  border: 1px solid var(--ink-200); border-radius: var(--radius-sm);
+  background: var(--bg); padding: 8px 12px; font-size: 12.5px; color: var(--ink-900);
+  outline: none; min-width: 220px; font-family: inherit;
+  transition: border-color .15s var(--ease), box-shadow .15s var(--ease);
+}
+.history-select:focus, .history-input:focus {
+  border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-tint);
+}
+.history-input::placeholder { color: var(--ink-500); }
+.hist-num { text-align: right; font-variant-numeric: tabular-nums; }
+

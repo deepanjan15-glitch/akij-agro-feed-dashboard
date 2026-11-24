@@ -12,6 +12,7 @@ const VIEW_TITLES = {
   signals: "Market Signals",
   recommendations: "Recommendations",
   ai: "AI Insights",
+  history: "Historical Data",
   settings: "Settings",
 };
 

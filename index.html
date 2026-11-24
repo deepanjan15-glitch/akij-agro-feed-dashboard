@@ -95,6 +95,10 @@
         <span class="nav-label">AI Insights</span>
         <span class="badge-dot"></span>
       </li>
+      <li class="nav-item" data-view="history">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+        <span class="nav-label">Historical Data</span>
+      </li>
     </ul>
 
     <div class="nav-section-title">System</div>
@@ -378,6 +382,33 @@
           </div>
           <div class="ai-cards" id="aiCardsFull"></div>
           <div class="ai-typing"><span></span><span></span><span></span></div>
+        </div>
+      </section>
+
+      <!-- ======================= VIEW: HISTORICAL DATA ======================= -->
+      <section class="view" id="view-history">
+        <div class="section-heading"><h2>Historical Data</h2><span class="section-sub">12-month price history per material, interpolated from tracked anchor points</span></div>
+        <div class="chart-grid">
+          <div class="panel span-8">
+            <div class="panel-head">
+              <div class="panel-head-text"><h3>12-Month Price Trend</h3><span class="panel-sub">Monthly history for a selected material</span></div>
+              <select class="history-select" id="historyMaterialSelect" aria-label="Select material"></select>
+            </div>
+            <div class="chart-canvas-wrap tall"><canvas id="historyTrendChart"></canvas></div>
+          </div>
+          <div class="panel span-4">
+            <div class="panel-head"><div class="panel-head-text"><h3>Portfolio Monthly Average</h3><span class="panel-sub">Mean price across tracked materials</span></div></div>
+            <div class="chart-canvas-wrap tall"><canvas id="historyAvgChart"></canvas></div>
+          </div>
+          <div class="panel span-12">
+            <div class="panel-head">
+              <div class="panel-head-text"><h3>Historical Data Table</h3><span class="panel-sub">Month-by-month price (USD/MT) for each material</span></div>
+              <input class="history-input" type="text" id="historyTableSearch" placeholder="Search material…" />
+            </div>
+            <div class="table-scroll" style="max-height:520px;">
+              <table class="data-table" id="historyTable"></table>
+            </div>
+          </div>
         </div>
       </section>
 

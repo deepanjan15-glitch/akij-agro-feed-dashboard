@@ -14,6 +14,7 @@ import {
 import { renderMainTable, renderTableToolbar } from "./table.js";
 import { renderSignalCards, renderDependencyGrid, renderSupplierTable, renderRecommendationsTable } from "./signals.js";
 import { renderAICards, renderExecutiveSummary, renderExecutiveBrief, renderHealthScore, renderWatchlistPanel } from "./insights.js";
+import { initHistorySelect, renderHistoryChart, renderHistoryAvg, renderHistoryTable } from "./history.js";
 import { openRowModal, closeRowModal } from "./modal.js";
 import { exportExcel, exportPDF } from "./exportUtils.js";
 import { initTheme, initSidebar, initNav } from "./theme.js";
@@ -74,6 +75,11 @@ async function bootstrap() {
       renderPriceTrend("priceTrendChart", Number(btn.dataset.range));
     });
   });
+
+  initHistorySelect("historyMaterialSelect", (id) => renderHistoryChart("historyTrendChart", id));
+  document.getElementById("historyTableSearch").addEventListener("input", debounce((e) => {
+    renderHistoryTable("historyTable", e.target.value);
+  }, 200));
 
   document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeRowModal(); });
   document.addEventListener("theme:changed", () => renderCurrentView());
@@ -137,6 +143,11 @@ function renderCurrentView() {
       break;
     case "ai":
       renderAICards("aiCardsFull");
+      break;
+    case "history":
+      renderHistoryChart("historyTrendChart", document.getElementById("historyMaterialSelect").value);
+      renderHistoryAvg("historyAvgChart");
+      renderHistoryTable("historyTable", document.getElementById("historyTableSearch").value);
       break;
     default:
       break;
